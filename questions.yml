@@ -60,6 +60,20 @@ questions:
   required: true
   label: osclass Web Title
   group: "OsClass Settings"
+- variable: osclassPingEngines
+  default: "1"
+  description: "Ping Engines"
+  type: int
+  required: true
+  label: osclass Ping Engines
+  group: "OsClass Settings"
+- variable: osclassSaveStats
+  default: "1"
+  description: "Save Stats"
+  type: int
+  required: true
+  label: osclass Save Stats
+  group: "OsClass Settings"
 - variable: mariadb.enabled
   default: true
   description: "Deploy a database server as part of this deployment, or set to false and configure an external database connection."
