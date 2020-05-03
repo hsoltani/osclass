@@ -178,7 +178,7 @@ questions:
   subquestions:
   - variable: ingress.hosts[0].name
     default: "xip.io"
-    description: "Hostname to your JasperReports installation"
+    description: "Hostname to your OsClass installation"
     type: hostname
     required: true
     label: Hostname
